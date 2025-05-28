@@ -1,4 +1,13 @@
 
+"""
+After some research I figured out that
+any drawn character follows a 
+Weibull distribution. That is, the actual
+appereance of heavy tailored characters
+in a distribution resembling a Gaussian
+distribution.
+"""
+
 class LinesDataset():
     def __init__(self, n, turns=8): 
         self.n = n
